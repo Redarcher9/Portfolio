@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.projecttile{
+    display: flex;
+    flex-direction: column;
+    border: #4F5B66 1px solid;
+    width: 350px;
+    height: 250px;
+    
+}
+.projecttile:hover{
+    border: black 2px solid;
+    width: 350px;
+    height: 250px;
+}
+.projecttile h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0px 20px;
+    color: #343D46;
+}
+.projecttile p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    color: #343D46;
+}
+.projecttilebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.LinkCss{
+    margin:5px;
+    width: 30px;
+    height: 30px;
+}
+.LinkCss:hover{
+    margin:5px;
+    width: 32px;
+    height: 32px;
+}
+

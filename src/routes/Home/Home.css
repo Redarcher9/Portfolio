@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.home{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.picture{
+    height: 400px;
+    width: 400px;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+}
+.introtext{
+    margin:0px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.namehighlight{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
